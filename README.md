@@ -20,10 +20,6 @@ amazon-clone/
 2. Open the `index.html` file in your browser.
 3. Explore the Amazon-like layout and styling.
 
-## 📸 Screenshots
-
-*(Add screenshots here if you have any)*
-
 ## 📌 Features
 
 - Responsive header/navigation bar
@@ -32,9 +28,7 @@ amazon-clone/
 - Clean CSS styling
 
 ## 🙋‍♂️ Author
-
-Your Name  
-Hasnain-Ali
+Hasnain Azam (GitHub: Hasnain Ali) 
 
 ---
 
