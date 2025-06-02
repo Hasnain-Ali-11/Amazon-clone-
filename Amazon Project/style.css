@@ -1,0 +1,362 @@
+*{
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+/* Code for the nav bar in the web page */
+.navbar {
+  height:60px;
+  background-color:#0f1111;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  
+}
+/* Reusable hover effect class */
+.hover-border:hover {
+    border: 2px solid white;
+}
+
+/* box 1 */
+.logo {
+    height:50px;
+    width:113px;
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+}
+/* box 2 */
+.AddressIcon {
+    border:2px solid black;
+    height:50px;
+    width: 93px;
+}
+.AddressIcon:hover {
+    border:2px solid white;
+}
+.Uppertext {
+    font-size: 0.9rem;
+    color:#cccccc;
+    margin-left:15px;
+    margin-top:5px;
+}
+.LocationIcon {
+    display:flex;
+    margin-top:0px;
+}
+.LowerText {
+    font-size:1rem;
+    color:#ffffff;
+    margin-left:3px;
+}
+/* Box 3 */
+.SearchPlace {
+    height: 45px;
+    width: 663px;
+    display:flex;
+    align-items: center;
+    border-radius:5px;
+}
+.All {
+    height: 40px;
+    width: 660px;
+    display:flex;
+    align-items:center;
+}
+.options {
+    height:40px;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:#D3D3D3;
+    font:50px;
+    border:none;
+}
+.TypeSearchBox {
+    height:40px;
+    width:631px;
+    border:none;
+    font-size:1rem;
+}
+.SearchIcon {
+    height:40px;
+    width:40px;
+    background-color:#febd68 ;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:none;
+    font-size:1rem;
+    color:black;
+}
+/* Box 4 */
+.language {
+    height:50px;
+    width:60px;
+    background-color:#0f1111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.language-icon {
+    height:16px;
+    width:21px;
+}
+.language-name {
+    height:15px;
+    width:18px;
+    font:6px;
+}
+.dropdown-icon {
+    height:2px;
+    width:6px;
+    font:grey;
+}
+/* Box 5 */
+.sign-in {
+    height:50px;
+    width:130px;
+}
+.upper-text {
+    height:14px;
+    width:75px;
+    font-size:0.85rem;
+    margin-left:8px;
+    margin-top:0.5rem;
+}
+.lower-text {
+    height:18px;
+    width:120px;
+    margin-left:8px;
+    font-size:0.9rem;
+}
+/* Box 6 */
+.orders {
+    height:50px;
+    width:70px;
+}
+.orders-upper-text {
+    margin-top:8px;
+    margin-left:5px;
+    font-size:0.8rem;
+}
+.orders-lower-text {
+   font-size :0.95rem;
+   margin-left:5px;
+}
+/* Box 7 */
+.cart {
+    height:50px;
+    width:84px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.cart-icon {
+   height:30px;
+   width:30px;
+   font-size:30px;
+   background-image: cover;
+   margin-right:8px;
+}
+.text {
+   margin-top: 20px;
+   font-size: 17px;
+}
+/* Code for Second Panel */
+.second-panel {
+    height: 39px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#202A44;
+}
+/* Box 1 */
+.menu {
+    height:39px;
+    width: 58px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:35px;
+
+}
+.menu-icon {
+    color:white;
+    font-size:14px;
+}
+.menu-lower-text {
+    color:white;
+    font-size:14px;
+    margin-left:4px;
+}
+/* Box 2 */
+.anchor-links {
+    height: 39px;
+    width: 1197px;
+    text-decoration:none;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+.links {
+    text-decoration: none;
+    color:white;
+    margin-right:10px;
+    font-size:14px;
+    height:25px;
+    display:flex;
+    align-items:center;
+
+}
+/*Box 3*/
+.gaming-store-link {
+    height: 39px;
+    width:240px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.gaming-store-tag {
+    height:25px;
+    text-decoration:none;
+    color:white;
+    display:flex;
+    align-items:center;
+    font-size:14px;
+}
+.main-body {
+    background-color:#b5bfcf;
+}
+/* Styling For Hero Section */
+.hero-section {
+    height: 600px;
+    background-image:url(hero_image.jpg);
+    background-size: cover;
+}
+/* Styling For Shopping Boxes */
+.div-for-boxes {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position:relative;
+    margin-top:-285px;
+}
+.boxes {
+    height:420px;
+    width:358px;
+    margin-top:3px;
+    background-color:white;
+    margin-top:20px;
+}
+.set-image {
+    height:303px;
+    width:303px;
+    margin:1.5rem;
+}
+.atag-shopboxes {
+    display:block;
+    width:100px;
+    margin-left:24px;
+
+}
+.heading-two {
+    margin-right:15px;
+    display:block;
+    margin-left:23px;
+    margin-top:10px;
+}
+/* Footer OF the Page  */
+/* Styling For Footer Box 1 */
+.footer-box-1 {
+    height:165px;
+    background-color:white;
+    margin-top:50px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+}
+.footer-sign-in-button {
+    height:28px;
+    width:250px;
+    background-color:rgb(252, 190, 3);
+    border-radius:5px;
+    border:none;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.upper-text-footer {
+    display:block;
+}
+.lower-text-footer {
+    font-size:12px;
+}
+.a-tag-footer {
+    text-decoration: none;
+}
+/* Styling For Footer Box 2 */
+.back-to-top-button {                                                                       
+    height:49px;
+    background-color:#004b91;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+/* Styling For Box Footer Box 3 */
+.footer-box-3 {
+    height:450px;
+    background-color:#232f3e;
+}
+.first-sub-footer-box-3 {
+    display:flex;
+    justify-content:space-evenly;
+    font-size:16px;
+}
+.sub-boxes-footer-3 {
+    margin-top:30px;
+    color:white;
+    height: 291px;
+    text-align:left;
+    
+}
+.footer-anchor-tags {
+    display:block;
+    color:#DDDDDD;
+    text-decoration:none;
+    font-size:14px;
+    margin-top:10px;
+}
+.footer-tag-hover:hover {
+    text-decoration: underline;
+}
+.horizontal-ruler {
+    border-color:#202A44;
+}
+/* Styling For FOtter Box 3 */
+.second-sub-footer-box-3 {
+    margin-top:35px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo-footer {
+    height:50px;
+    width:113px;
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+    margin-right:100px;
+}
+.a-tag-second-sub-footer-box-3 {
+    color:white;
+    text-decoration:none;
+    border:1px solid #DDDDDD;
+    padding:0.5rem;
+    font-size:13px;
+    margin-right:5px;
+    display:flex;
+    gap: 10px;
+}
